@@ -1,2 +1,5 @@
 # Ford2020
-Jianli, Jinwei and Kyle will share
+## Acknowledgement
+This project is funded by Ford Motor Company.
+
+## Project Goal
