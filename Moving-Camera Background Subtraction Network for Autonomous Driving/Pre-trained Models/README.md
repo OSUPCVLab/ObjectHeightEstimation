@@ -1,4 +1,4 @@
-Moving-Camera Background Subtraction Network(MBSNet) has several basemodels including:
+Moving-Camera Background Subtraction Network (MBSNet) contains several basemodels options including:
 * GoogleNet
 * Xception39
 * MobileNet
