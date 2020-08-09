@@ -149,7 +149,7 @@ class FeatureFusionModule(torch.nn.Module):
         x = torch.add(x, feature)
         return x
 
-class BiSeNet(torch.nn.Module):
+class MBSNet(torch.nn.Module):
     def __init__(self, num_classes, context_path, Deconvolution=False):
         super().__init__()
         self.Deconv = Deconvolution
@@ -270,7 +270,7 @@ class BiSeNet(torch.nn.Module):
 
 if __name__ == "__main__":
     device='cpu'
-    net = BiSeNet(2, 'MobileNet', Deconvolution=False).to(device)
+    net = MBSNet(2, 'MobileNet', Deconvolution=False).to(device)
     net.eval()
     in_ten = torch.zeros(2,3,240,400)
     out = net(in_ten)

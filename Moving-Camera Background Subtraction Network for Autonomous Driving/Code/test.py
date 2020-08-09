@@ -52,9 +52,9 @@ def main(opt):
                                  shuffle=False,
                                  drop_last=True)
 
-    # BiSeNet Model
+    # MBSNet Model
     out_channel = 2
-    net = model.BiSeNet(out_channel, opt.backbone, Deconvolution=opt.Deconvolution).to(device)
+    net = model.MBSNet(out_channel, opt.backbone, Deconvolution=opt.Deconvolution).to(device)
 
 
     # Load trained weights
@@ -207,7 +207,7 @@ if __name__=='__main__':
 
     parser.add_argument("--batch_size", type=int, default=8, help="size of the batches")
 
-    parser.add_argument("--backbone", type=str, default='Resnet101', help="Training backbone of BiSeNet model")
+    parser.add_argument("--backbone", type=str, default='Resnet101', help="Training backbone of MBSNet model")
     
     parser.add_argument('--Deconvolution', default=False, action='store_true', help='use Deconvolution or Bilinear Interpolation to achieve 8x upsampling')
     

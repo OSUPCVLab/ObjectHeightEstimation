@@ -11,7 +11,7 @@ import cv2
 
 from utils.augmentations import *
 from dataloader.dataloader import ImagesDataset
-from model import model, model_update
+from model import model
 from loss.loss import OhemCELoss, SoftmaxFocalLoss, FocalLoss
 
 import torch
@@ -66,9 +66,9 @@ def main(opt):
                                  drop_last=True)
 
 
-    # BiSeNet Model
+    # MBSNet Model
     out_channel = 2
-    net = model.BiSeNet(out_channel, opt.backbone, Deconvolution=opt.Deconvolution).to(device)
+    net = model.MBSNet(out_channel, opt.backbone, Deconvolution=opt.Deconvolution).to(device)
 
 
     # specify start epoch
@@ -77,15 +77,6 @@ def main(opt):
         print('Successfully load model weights!')
 
     # specify loss function and optimizer
-    #criterion = nn.CrossEntropyLoss().to(device)
-    
-    '''
-    score_thres = 0.7
-    n_min = crop_size[0]*crop_size[1]
-    criterion_p = OhemCELoss(thresh=score_thres, n_min=n_min, ignore_lb=-100)
-    criterion_16 = OhemCELoss(thresh=score_thres, n_min=n_min, ignore_lb=-100)
-    criterion_32 = OhemCELoss(thresh=score_thres, n_min=n_min, ignore_lb=-100)
-    '''
     alpha = 0.75
     gamma = 0.5
     criterion_p = FocalLoss(gamma=gamma, alpha=alpha)
@@ -196,7 +187,7 @@ if __name__=='__main__':
 
     parser.add_argument("--batch_size", type=int, default=16, help="size of the batches")
 
-    parser.add_argument("--backbone", type=str, default='Resnet101', help="Training backbone of BiSeNet model")
+    parser.add_argument("--backbone", type=str, default='Resnet101', help="Training backbone of MBSNet model")
 
     parser.add_argument("--start_epoch", type=int, default=0, help="Training start epoch")
 
