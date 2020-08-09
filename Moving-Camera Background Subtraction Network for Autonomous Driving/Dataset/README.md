@@ -5,4 +5,4 @@ The basic dataset we used in this subproject is ApolloScape road02seg dataset, w
 Considering that the goal of this subproject is to detect background and foreground regions from images acquired by a moving camera, we fuse all classes into background and foreground; such as sky, building and road become background and denoted as `1`; and everything else including all moving objects become foreground and are labeled as `0`.
 ## Dataset Availability
 * Original ApolloScape Scene Parsing dataset is available from [`ApolloScape website`](http://apolloscape.auto/scene.html#to_down_href).
-* Pre-processed dataset inculding training, validation and testing frames and labels are from [`here`](https://buckeyemailosu-my.sharepoint.com/:f:/r/personal/wei_909_buckeyemail_osu_edu/Documents/ApolloScape%20Dataset?csf=1&web=1&e=ILopbB).
+* Pre-processed dataset inculding training, validation and testing frames and labels are from [`here`](https://buckeyemailosu-my.sharepoint.com/:f:/r/personal/wei_909_buckeyemail_osu_edu/Documents/ApolloScape%20Dataset?csf=1&web=1&e=Cm4Q24).
