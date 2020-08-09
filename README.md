@@ -1,4 +1,4 @@
-# Ford2020
+# Jianli's Ford2020 Project
 ## Acknowledgement
 This project is funded by Ford Motor Company.
 
