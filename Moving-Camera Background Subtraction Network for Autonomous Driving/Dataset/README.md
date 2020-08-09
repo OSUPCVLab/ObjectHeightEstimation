@@ -1,3 +1,5 @@
 # Background Subtraction Dataset
-## Dataset Discription
+## ApolloScape Dataset Discription
 The basic dataset we used in this subproject is ApolloScape road02seg dataset, which is avaiable from [`ApolloScape website`](http://apolloscape.auto/scene.html#to_down_href). It contains 25 snippets and 11435 continuous frames in total. We manually divided them into training, validation and testing datasets, which respectivelyhave 7923, 1200 and 2312 frames. Besides, all frames are fine annotated have a resolution of 3,384×2,710, in which each pixel is annotated to 25 different predefined labels by 8 groups, listed [`here`](http://apolloscape.auto/scene.html#to_define_href).
+## Apolloscape Dataset Pre-processing
+Considering that the goal of this subproject is to detect background and foreground regions from images acquired by a moving camera, we fuse all classes into background and foreground; such as sky, building and road become background and denoted as $1$; and everything else including all moving objects become foreground and are labeled as $0$
