@@ -7,4 +7,6 @@ This project aims to provide fast, accurate pixelwise semantic segmentation for 
 * [tmdq 4.48.2](https://pypi.org/project/tqdm/)
 
 # Training
-1. Creat and local path for training and validation datasets
+1. Download datasets and add local dir for training and validation images and labels.
+2. Modify `parser.add_argument` in `Train.py` according to your requirements.
+3. Train MBSNet
