@@ -7,7 +7,7 @@ This project aims to provide fast, accurate pixelwise semantic segmentation for 
 * [tmdq 4.48.2](https://pypi.org/project/tqdm/)
 
 # Training
-1. Download [datasets](https://github.com/OSUPCVLab/Ford2020/tree/master/Moving-Camera%20Background%20Subtraction%20Network%20for%20Autonomous%20Driving/Dataset) and add local dir for training and validation images and labels.
+1. Download [`datasets`](https://github.com/OSUPCVLab/Ford2020/tree/master/Moving-Camera%20Background%20Subtraction%20Network%20for%20Autonomous%20Driving/Dataset) and add local dir for training and validation images and labels.
 2. Modify `parser.add_argument` in `train.py` according to your requirements. Input arguments include:
 * `--image_dir`
 * `--label_dir`
@@ -21,7 +21,7 @@ Descriptions about above arguments are available on `train.py`.
 3. Train MBSNet
 
 # Inference
-Inference [datasets](https://github.com/OSUPCVLab/Ford2020/tree/master/Moving-Camera%20Background%20Subtraction%20Network%20for%20Autonomous%20Driving/Dataset) are also available. Please assign a GPU for inference if available. `speed_analysis.py` is written for testing trained MBSNet inference speed.
+Inference [`datasets`](https://github.com/OSUPCVLab/Ford2020/tree/master/Moving-Camera%20Background%20Subtraction%20Network%20for%20Autonomous%20Driving/Dataset) are also available. Please assign a GPU for inference if available. `speed_analysis.py` is written for testing trained MBSNet inference speed.
 1. Add local testing images and labels dir.
 2. Modify `parser.add_argument` in `test.py` according to your requirements. Besides those input arguments listed above `train.py`, `test.py` also includes:
 * `--type`
@@ -30,4 +30,4 @@ Inference [datasets](https://github.com/OSUPCVLab/Ford2020/tree/master/Moving-Ca
 * `--use_crf`
 * `--crf_num`
 
-3. Trained MBSNet under Xception39 basemodel is available [OneDrive]().
+3. Trained MBSNet under Xception39 basemodel is available [`OneDrive`](https://buckeyemailosu-my.sharepoint.com/:f:/r/personal/wei_909_buckeyemail_osu_edu/Documents/Pre-trained%20Models?csf=1&web=1&e=kFdfGo).
