@@ -5,3 +5,6 @@ This project aims to provide fast, accurate pixelwise semantic segmentation for 
 * [PyTorch 1.6.0](https://pytorch.org/)
 * [opencv 4.4.0.40](https://pypi.org/project/opencv-python/)
 * [tmdq 4.48.2](https://pypi.org/project/tqdm/)
+
+# Training
+1. Creat and local path for training and validation datasets
