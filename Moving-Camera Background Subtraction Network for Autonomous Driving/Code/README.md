@@ -9,5 +9,7 @@ This project aims to provide fast, accurate pixelwise semantic segmentation for 
 # Training
 1. Download datasets and add local dir for training and validation images and labels.
 2. Modify `parser.add_argument` in `train.py` according to your requirements. Arguments include:
-  * --image_dir
+* image_dir
+ * label_dir
+   * --batch_size
 3. Train MBSNet
