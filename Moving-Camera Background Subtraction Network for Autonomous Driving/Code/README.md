@@ -31,3 +31,11 @@ Inference [`datasets`](https://github.com/OSUPCVLab/Ford2020/tree/master/Moving-
 * `--crf_num`
 
 3. Trained MBSNet under Xception39 basemodel is available [`OneDrive`](https://buckeyemailosu-my.sharepoint.com/:f:/r/personal/wei_909_buckeyemail_osu_edu/Documents/Pre-trained%20Models?csf=1&web=1&e=kFdfGo).
+
+# Disclaimer
+This project is an ongoing project. Future work will be released. Feel free to open an issue if you get stuck anywhere.
+
+# Contact
+Jianli Wei
+wei.909@osu.edu
+[PCV Lab, the Ohio State University](https://pcvlab.engineering.osu.edu/)
