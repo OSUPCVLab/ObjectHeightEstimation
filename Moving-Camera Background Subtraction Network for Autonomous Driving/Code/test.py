@@ -213,13 +213,13 @@ if __name__=='__main__':
     
     parser.add_argument('--type', type=str, default='test', help='type of dataset')
     
-    parser.add_argument("--class_", type=int, default=0, help="compute mIoU of background or non-background")
+    parser.add_argument("--class_", type=int, default=0, help="compute mIoU of background(0) or non-background(1)")
     
-    parser.add_argument("--epoch", type=int, default=0, help="test epoch selection")
+    parser.add_argument("--epoch", type=int, default=0, help="choose a trained inference epoch")
     
-    parser.add_argument('--use_crf', default=False, action='store_true', help='use crf or not')
+    parser.add_argument('--use_crf', default=False, action='store_true', help='use CRF as temporal regulation or not')
     
-    parser.add_argument("--crf_num", type=int, default=1, help="test epoch selection")
+    parser.add_argument("--crf_num", type=int, default=1, help="select previous inference masks fed into CRF layer, only valid when --use_crf=True")
 
     opt = parser.parse_args()
     
