@@ -37,5 +37,7 @@ This project is an ongoing project. Future work will be released. Feel free to o
 
 # Contact
 Jianli Wei
+
 wei.909@osu.edu
-[PCV Lab, the Ohio State University](https://pcvlab.engineering.osu.edu/)
+
+[PCV Lab, The Ohio State University](https://pcvlab.engineering.osu.edu/)
