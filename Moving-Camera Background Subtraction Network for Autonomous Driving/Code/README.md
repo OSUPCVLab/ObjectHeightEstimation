@@ -21,7 +21,7 @@ Descriptions about above arguments are available on `train.py`.
 3. Train MBSNet
 
 # Inference
-Inference [datasets](https://github.com/OSUPCVLab/Ford2020/tree/master/Moving-Camera%20Background%20Subtraction%20Network%20for%20Autonomous%20Driving/Dataset) are also available. Please assign a GPU for inference if available. 
+Inference [datasets](https://github.com/OSUPCVLab/Ford2020/tree/master/Moving-Camera%20Background%20Subtraction%20Network%20for%20Autonomous%20Driving/Dataset) are also available. Please assign a GPU for inference if available. `speed_analysis.py` is written for testing trained MBSNet inference speed.
 1. Add local testing images and labels dir.
 2. Modify `parser.add_argument` in `test.py` according to your requirements. Besides those input arguments listed above `train.py`, `test.py` also includes:
 * `--type`
@@ -30,4 +30,4 @@ Inference [datasets](https://github.com/OSUPCVLab/Ford2020/tree/master/Moving-Ca
 * `--use_crf`
 * `--crf_num`
 
-3. 
+3. Trained MBSNet under Xception39 basemodel is available [OneDrive]().
