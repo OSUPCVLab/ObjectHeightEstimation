@@ -16,4 +16,8 @@ This project aims to provide fast, accurate pixelwise semantic segmentation for 
 * `--start_epoch`
 * `--Deconvolution`
 
+Descriptions about above arguments are available on `train.py`.
 3. Train MBSNet
+
+# Inference
+1. To start 
