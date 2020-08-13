@@ -7,8 +7,8 @@ This project aims to provide fast, accurate pixelwise semantic segmentation for 
 * [tmdq 4.48.2](https://pypi.org/project/tqdm/)
 
 # Training
-1. Download datasets and add local dir for training and validation images and labels.
-2. Modify `parser.add_argument` in `train.py` according to your requirements. Arguments include:
+1. Download [datasets]() and add local dir for training and validation images and labels.
+2. Modify `parser.add_argument` in `train.py` according to your requirements. Input arguments include:
 * `--image_dir`
 * `--label_dir`
 * `--batch_size`
@@ -17,7 +17,9 @@ This project aims to provide fast, accurate pixelwise semantic segmentation for 
 * `--Deconvolution`
 
 Descriptions about above arguments are available on `train.py`.
+
 3. Train MBSNet
 
 # Inference
+Inference datasets are also available. 
 1. To start 
