@@ -5,6 +5,7 @@ This project aims to provide fast, accurate pixelwise semantic segmentation for 
 * [PyTorch 1.6.0](https://pytorch.org/)
 * [opencv 4.4.0.40](https://pypi.org/project/opencv-python/)
 * [tmdq 4.48.2](https://pypi.org/project/tqdm/)
+* [pydensecrf](https://github.com/lucasb-eyer/pydensecrf)
 
 # Training
 1. Download [`datasets`](https://github.com/OSUPCVLab/Ford2020/tree/master/Moving-Camera%20Background%20Subtraction%20Network%20for%20Autonomous%20Driving/Dataset) and add local dir for training and validation images and labels.
