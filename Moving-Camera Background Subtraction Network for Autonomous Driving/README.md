@@ -2,7 +2,7 @@
 This project aims to provide fast, accurate pixelwise semantic segmentation for moving-camera background subtraction using PyTorch.
 
 # Software Installment
-The code is implemented on Python 3.7
+The code is implemented on Python 3.7.
 * [PyTorch 1.6.0](https://pytorch.org/)
 * [pydensecrf](https://github.com/lucasb-eyer/pydensecrf)
 * [opencv 4.4.0.40](https://pypi.org/project/opencv-python/)
