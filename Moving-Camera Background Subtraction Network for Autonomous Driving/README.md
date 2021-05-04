@@ -36,10 +36,3 @@ Inference [`datasets`](https://github.com/OSUPCVLab/Ford2020/tree/master/Moving-
 
 # Disclaimer
 This project is an ongoing project. Future work will be released. Feel free to open an issue if you get stuck anywhere.
-
-# Contact
-Jianli Wei
-
-wei.909@osu.edu
-
-[PCV Lab, The Ohio State University](https://pcvlab.engineering.osu.edu/)
