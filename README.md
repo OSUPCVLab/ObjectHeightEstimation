@@ -12,3 +12,10 @@ Ford2019 project aims to achieve vehicle-embedded monocular height estimation.
 ## Pulishcations
 * MBS-Net: A Moving-Camera Background Subtraction Network for Autonomous Driving
 * MOHE-Net: Monocular Object Height Estimation Network Using Deep Learning and Scene Geometry
+
+# Contact
+Jianli Wei
+
+wei.909@osu.edu
+
+[PCV Lab, The Ohio State University](https://u.osu.edu/pcvlab/)
