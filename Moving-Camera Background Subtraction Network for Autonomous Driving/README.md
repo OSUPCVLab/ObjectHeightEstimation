@@ -1,5 +1,5 @@
 # MBSNet
-This project aims to provide fast, accurate pixelwise semantic segmentation for moving-camera background subtraction using PyTorch.
+This project aims to provide fast, accurate pixelwise semantic segmentation for moving-camera background subtraction using [PyTorch](https://pytorch.org/).
 
 # Software Installment
 The code is implemented on Python 3.7.
