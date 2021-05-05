@@ -10,8 +10,11 @@ $ pip install -r requirements.txt
 # Pretrained weights
 YOLOv5 pretrained weights include
 * yolov5s.pt
+* yolov5m.pt
+* yolov5l.pt
+* yolov5x.pt
 
-are available at [`one drive`](https://buckeyemailosu-my.sharepoint.com/:f:/r/personal/wei_909_buckeyemail_osu_edu/Documents/YOLOv5%20Pre-trained%20Models?csf=1&web=1&e=AUQf3e). Please download and save them into `model\yolov5\weights`.
+They are available at [`one drive`](https://buckeyemailosu-my.sharepoint.com/:f:/r/personal/wei_909_buckeyemail_osu_edu/Documents/YOLOv5%20Pre-trained%20Models?csf=1&web=1&e=AUQf3e). Please download and save them into `model\yolov5\weights`.
 
 
 # Inference
