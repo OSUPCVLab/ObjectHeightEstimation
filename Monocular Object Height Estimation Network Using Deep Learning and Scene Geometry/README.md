@@ -18,6 +18,7 @@ They are available at [`one drive`](https://buckeyemailosu-my.sharepoint.com/:f:
 
 
 # Inference
+```bash
 $ python test.py --source './datasets/'  # Inference dataset
                  --seq_num  '00'  # Inference folder within source
                  --weights 'yolov5s.pt'  # YOLOv5 pre-trained weights
@@ -26,4 +27,4 @@ $ python test.py --source './datasets/'  # Inference dataset
                  --iou_thres 0.45 # IOU threshold for NMS
                  --augment 'store_true'  # augmented inference
                  --agnostic-nms 'store_true'  # class-agnostic NMS
-                 
+```
