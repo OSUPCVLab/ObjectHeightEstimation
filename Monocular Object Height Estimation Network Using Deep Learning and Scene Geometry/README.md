@@ -7,6 +7,10 @@ Python 3.8 or later with all requirements.txt dependencies installed, including 
 $ pip install -r requirements.txt
 ```
 
+# Pretrained weights
+YOLOv5 pretrained weights are available at [`one drive`](https://buckeyemailosu-my.sharepoint.com/:f:/r/personal/wei_909_buckeyemail_osu_edu/Documents/YOLOv5%20Pre-trained%20Models?csf=1&web=1&e=AUQf3e). Please download and save them into `model\yolov5\weights`.
+
+
 # Inference
 ```bash
 $ pip install -r requirements.txt
