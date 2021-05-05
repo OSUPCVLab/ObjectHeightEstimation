@@ -6,3 +6,8 @@ Python 3.8 or later with all requirements.txt dependencies installed, including 
 ```bash
 $ pip install -r requirements.txt
 ```
+
+# Inference
+```bash
+$ pip install -r requirements.txt
+```
