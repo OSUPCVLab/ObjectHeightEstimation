@@ -31,4 +31,4 @@ $ python test.py --source = './datasets/'       # Inference dataset
 ```
 
 # Camera calibration
-Our repo support camera calibration using chessboard algorithm. Please save chessboard images into `camera_cali/cali` folder and run [`camera_calibration.ipynb`](https://github.com/OSUPCVLab/Ford2019/blob/master/Monocular%20Object%20Height%20Estimation%20Network%20Using%20Deep%20Learning%20and%20Scene%20Geometry/camera_cali/camera_calibration.ipynb).
+Our repo support camera calibration using chessboard algorithm. Please save chessboard images into `camera_cali/cali` folder and run [`camera_calibration.ipynb`](https://github.com/OSUPCVLab/Ford2019/blob/master/Monocular%20Object%20Height%20Estimation%20Network%20Using%20Deep%20Learning%20and%20Scene%20Geometry/camera_cali/camera_calibration.ipynb). It returns camera intrinsic matrix and distortion coefficients. Please update those in `test.py`.
