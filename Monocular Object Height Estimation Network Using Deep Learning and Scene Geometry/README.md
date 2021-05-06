@@ -29,3 +29,5 @@ $ python test.py --source = './datasets/'       # Inference dataset
                  --augment                      # augmented inference
                  --agnostic-nms                 # class-agnostic NMS
 ```
+
+# Camera calibration
