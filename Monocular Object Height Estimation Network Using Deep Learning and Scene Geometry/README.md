@@ -25,6 +25,6 @@ $ python test.py --source = './datasets/'       # Inference dataset
                  --img_size = 640               # inference image size (pixels), 1280 for OST strategy
                  --conf_thres = 0.25            # object confidence threshold
                  --iou_thres = 0.45             # IOU threshold for NMS
-                 --augment = 'store_true'       # augmented inference
-                 --agnostic-nms = 'store_true'  # class-agnostic NMS
+                 --augment                      # augmented inference
+                 --agnostic-nms                 # class-agnostic NMS
 ```
