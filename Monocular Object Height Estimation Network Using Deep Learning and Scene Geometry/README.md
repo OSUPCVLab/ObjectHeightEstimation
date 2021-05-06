@@ -36,3 +36,6 @@ Our repo support camera calibration using chessboard algorithm. Please save ches
 
 # Homography estimation
 We provide homography estimation code. You need to pick up one image clearly having cone markers on the ground and save it into `homography estimation` folder. Then run [`homo.ipynb`](https://github.com/OSUPCVLab/Ford2019/blob/master/Monocular%20Object%20Height%20Estimation%20Network%20Using%20Deep%20Learning%20and%20Scene%20Geometry/homography%20estimation/homo.ipynb). It outputs H matrix. Please update H matrix within [`utils.py`](https://github.com/OSUPCVLab/Ford2019/blob/master/Monocular%20Object%20Height%20Estimation%20Network%20Using%20Deep%20Learning%20and%20Scene%20Geometry/utils_general/utils.py) `get_H_A0_roi` function.
+
+# Disclaimer
+Feel free to open an issue if you get stuck anywhere.
