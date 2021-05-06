@@ -18,6 +18,7 @@ They are available at [`one drive`](https://buckeyemailosu-my.sharepoint.com/:f:
 
 
 # Inference
+`test.py` runs inference on a variety of image folders. After saving weights, run:
 ```bash
 $ python test.py --source = './datasets/'       # Inference dataset
                  --seq_num = '00'               # Inference folder within source
