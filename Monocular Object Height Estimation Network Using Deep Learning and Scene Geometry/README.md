@@ -19,12 +19,12 @@ They are available at [`one drive`](https://buckeyemailosu-my.sharepoint.com/:f:
 
 # Inference
 ```bash
-$ python test.py --source './datasets/'  # Inference dataset
-                 --seq_num  '00'  # Inference folder within source
-                 --weights 'yolov5s.pt'  # YOLOv5 pre-trained weights
-                 --img_size 640  # inference image size (pixels), 1280 for OST strategy
-                 --conf_thres 0.25  # object confidence threshold
-                 --iou_thres 0.45 # IOU threshold for NMS
-                 --augment 'store_true'  # augmented inference
-                 --agnostic-nms 'store_true'  # class-agnostic NMS
+$ python test.py --source='./datasets/'  # Inference dataset
+                 --seq_num='00'  # Inference folder within source
+                 --weights='yolov5s.pt'  # YOLOv5 pre-trained weights
+                 --img_size=640  # inference image size (pixels), 1280 for OST strategy
+                 --conf_thres=0.25  # object confidence threshold
+                 --iou_thres=0.45 # IOU threshold for NMS
+                 --augment='store_true'  # augmented inference
+                 --agnostic-nms='store_true'  # class-agnostic NMS
 ```
